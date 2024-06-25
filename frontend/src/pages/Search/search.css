@@ -1,0 +1,34 @@
+#search-container {
+  position: relative;
+  min-height: 20rem;
+}
+
+#search-loading {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--border-radius);
+  top: 0;
+  left: 0;
+  background-color: var(--maskbg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s;
+}
+
+.stat-label {
+  text-align: left;
+}
+
+.stat-value {
+  padding-left: 3rem;
+  text-align: left;
+  font-weight: 400;
+}
+
+#search-results {
+  position: relative;
+  width: 100%;
+  min-height: 20rem;
+}
